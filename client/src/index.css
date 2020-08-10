@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home .post img{
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  opacity: 0.3
+}
+
+.home .post{
+  overflow: hidden;
+  padding-left: 80px;
+}
+
+
+.todos .collection-item .circle{
+  border-radius: 0;
+  position: absolute; 
+  top: 25%;
+  left: 25px !important;
+}
+.todos.collection .collection-item.avatar{
+  min-height: 50px !important;
+}
+
+.todos .datetime{
+  margin-top: 7px;
+  text-transform: none !important;
+  cursor: default;
+  border: 1px solid #E8EAED;
+  border-radius: 5px;
+}
+
+.edit-btn, .delete-btn{
+  cursor: pointer;
+  font-size: 1.6rem !important;
+}
+
+@media only screen and (max-width: 992px){
+  nav .brand-logo {
+    -webkit-transform: translateX(0); 
+    transform: translateX(0);
+  left: 0;
+  }
+}
+nav .brand-logo{
+  margin-left: 5%;
+}
+
+.todos .title{
+  line-height: 2rem;
+}
+
+.edit-btn{
+  position: absolute;
+  top: 16px;
+  right: 50px;
+}
+
+.react-datepicker-popper {
+  z-index: 2 !important;
+}
+
+.deletedate-btn{
+  position: absolute;
+  top: 10px;
+  left: 190px;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+}
